@@ -1,0 +1,118 @@
+.body{
+  padding: 0px;
+  margin: 0px;
+}
+.Navbar, .darkNav{
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  padding: 1vh 0vh;
+  box-shadow: 1px 3px 10px gray;
+  width: 100%;
+}
+.darkNav{
+  background-color: black;
+  color: white;
+}
+.Navbar_List{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  float: right;
+  margin : 0px 0vw 0px 0vw;
+  list-style: none;
+  font-size: 3vh;
+  width: 50%;
+}
+.Navbar_Logo{
+  position: fixed;
+  left: 5vw;
+  display: flex;
+  align-self: center;
+  color: green;
+  font-size: 3vh;
+}
+.darkNav .Navbar_Logo{
+  color: greenyellow;
+}
+.Navbar i,.darkNav i{
+  display: flex;
+  align-self: center;
+  margin-right: 1vw;
+  height: 3vh;
+}
+
+.Searchbar{
+  display: flex;
+  float: right;
+  margin: 3vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.Searchbar input{
+  /* border-radius: 1vh; */
+  margin-right: 0vw;
+  height: 4vh;
+  font-size: 3vh;
+}
+
+.Searchbar button{
+  margin: 0px;
+  height: 4.6vh;
+  width: 2vw;
+  font-size: 2vh;
+  background-color: dodgerblue;
+}
+
+.toggler, .dark{
+  display: flex;
+  align-items: center;
+  margin-left: 2vw;
+}
+
+.toggler_slider{
+  background-color: black;
+  display: flex;
+  border: 1px solid black;
+  width: 4vw;
+  height: 2vh;
+  border-radius: 1vw;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  margin: 2vh;
+}
+
+.toggler_slider_circle{
+  background-color: white;
+  height: 2vh;
+  width: 2vh;
+  border-radius: 50%;
+}
+
+.toggler_dark{
+  color: gray;
+}
+
+.dark .toggler_slider{
+  background-color: white;
+  justify-content: flex-end;
+}
+
+.dark .toggler_slider_circle{
+  background-color: black;
+}
+
+.dark .toggler_dark{
+ color: greenyellow;
+}
+
+.dark .toggler_light{
+  color: grey;
+}
+
+.Main_background_image{
+  float: right;
+}
